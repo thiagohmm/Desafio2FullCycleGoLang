@@ -76,7 +76,7 @@ func main() {
 
 		fmt.Printf("Received from BrasilApi: %s - %s\n", msg.Link, msg.Resp)
 
-	case <-time.After(time.Second * 3):
+	case <-time.After(time.Second * 1):
 		println("timeout")
 
 	}
